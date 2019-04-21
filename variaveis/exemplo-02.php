@@ -10,12 +10,15 @@ $anoNascimento = 1998;
 $nomeCompleto = "Carlos Oliveira";
 */
 
-$nome1 = "carlos";
+$nome1 = "Carlos";
 
 $sobreNome = "Oliveira";
 
-$nomeCompleto = $nome1 . $sobreNome;
+$nomeCompleto = $nome1 . " " . $sobreNome;
 
+echo $nomeCompleto;
+
+exit;
 
 echo $nome1;
 echo "<br/>";

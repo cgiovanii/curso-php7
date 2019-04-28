@@ -15,4 +15,3 @@ echo $nome. " mais uma coisa<br>";
 $nome .= " treinamentos";
 
 echo $nome;
-
